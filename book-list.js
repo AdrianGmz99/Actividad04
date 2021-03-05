@@ -26,8 +26,8 @@ const setEditModal = (isbn) => {
     
         // Setting up the action url for the book
         document.getElementById('editForm').action = `http://localhost:3000/book/${isbn}`;
+    }
 }
-
 const deleteBook = (isbn) => {
     const deleteBook = (isbn) => {
         const xhttp = new XMLHttpRequest();
